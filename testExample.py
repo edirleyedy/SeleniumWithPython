@@ -2,8 +2,11 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 from selenium.webdriver.common.keys import Keys
+import json
 
-driver = webdriver.Chrome(executable_path=r'./chromedriver')
+
+#driver = webdriver.Chrome(executable_path=r'./chromedriver')
+driver = webdriver.Chrome(executable_path=r'C:\Tools\webdrivers\chromedriver.exe')
 driver.get("https://www.apple.com/br/")
 driver.find_element_by_css_selector('body > main > section:nth-child(2) > div:nth-child(1) > div > div > div.unit-copy-wrapper > div > a:nth-child(3)').click()
 sleep(5)
