@@ -4,14 +4,13 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 import json
 
-
 with open(".vscode\elements.json") as jsonFile:
     jsonObject = json.load(jsonFile)
 
 driver = webdriver.Chrome(executable_path=r'./chromedriver')
 driver.get("https://www.apple.com/br/")
 driver.find_element_by_css_selector(jsonObject['comprar']).click()
-sleep(5)
+
 driver.find_element_by_css_selector(jsonObject['selecionarAparelho']).click()
 driver.find_element_by_css_selector ('#Item16_1inch_label > span').click()
 sleep(5)
