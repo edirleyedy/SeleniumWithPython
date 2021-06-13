@@ -1,5 +1,7 @@
 {
     "comprar":"body > main > section:nth-child(2) > div:nth-child(1) > div > div > div.unit-copy-wrapper > div > a:nth-child(3)",
     "selecionarAparelho":"#root > div.rf-flagship > div.rf-flagship-buyflow.as-l-container.row.rf-flagship-buyflow-leadbyproductselection > div.column.large-5.large-offset-1.small-offset-0.small-12.rf-flagship-buyflow-columnright > div.rf-flagship-productselection > div:nth-child(1) > fieldset > div > div:nth-child(1) > label",
-    "selecionarCor":"#root > div.rf-flagship > div.rf-flagship-buyflow.as-l-container.row.rf-flagship-buyflow-leadbyproductselection > div.column.large-5.large-offset-1.small-offset-0.small-12.rf-flagship-buyflow-columnright > div.rf-flagship-productselection > div:nth-child(2) > fieldset > div > div:nth-child(4) > label"
+    "selecionarCor":"#root > div.rf-flagship > div.rf-flagship-buyflow.as-l-container.row.rf-flagship-buyflow-leadbyproductselection > div.column.large-5.large-offset-1.small-offset-0.small-12.rf-flagship-buyflow-columnright > div.rf-flagship-productselection > div:nth-child(2) > fieldset > div > div:nth-child(4) > label",
+    "selecionarCapacidade":"#root > div.rf-flagship > div.rf-flagship-buyflow.as-l-container.row.rf-flagship-buyflow-leadbyproductselection > div.column.large-5.large-offset-1.small-offset-0.small-12.rf-flagship-buyflow-columnright > div.rf-flagship-productselection > div:nth-child(3) > fieldset > div > div:nth-child(1) > label"
+
 }
